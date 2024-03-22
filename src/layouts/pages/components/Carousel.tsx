@@ -28,6 +28,18 @@ function Carousel() {
 					data-mdb-slide-to='2'
 					aria-label='Slide 3'
 				></button>
+				<button
+					type='button'
+					data-mdb-target='#carouselExampleIndicators'
+					data-mdb-slide-to='3'
+					aria-label='Slide 4'
+				></button>
+				<button
+					type='button'
+					data-mdb-target='#carouselExampleIndicators'
+					data-mdb-slide-to='4'
+					aria-label='Slide 5'
+				></button>
 			</div>
 			<div className='carousel-inner'>
 				<div className='carousel-item active'>
@@ -47,6 +59,20 @@ function Carousel() {
 				<div className='carousel-item'>
 					<img
 						src={"./../../../images/books/banner-3.jpg"}
+						className='d-block w-100'
+						alt='Exotic Fruits'
+					/>
+				</div>
+				<div className='carousel-item'>
+					<img
+						src={"./../../../images/books/banner-4.jpg"}
+						className='d-block w-100'
+						alt='Exotic Fruits'
+					/>
+				</div>
+				<div className='carousel-item'>
+					<img
+						src={"./../../../images/books/banner-5.jpg"}
 						className='d-block w-100'
 						alt='Exotic Fruits'
 					/>
